@@ -1,0 +1,26 @@
+------------------------------User Stories ------------------------------
+1)Load usernames	
+2)Load meetingNotes
+3)Load tasks
+4)Edit meeting notes
+------------------------------Class Diagram ------------------------------
+Tier 1: OK
+Tier 2: OK
+Tier 3: OK
+
+
+------------------------------Sequence diagram------------------------------
+1:  loadingProtocoll for ALL
+2:  ""
+3:  ""
+4:  ""
+------------------------------ER diagram ------------------------------
+1:
+2:
+3:
+4:
+
+
+
+
+								

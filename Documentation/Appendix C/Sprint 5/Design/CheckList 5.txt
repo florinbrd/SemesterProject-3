@@ -1,0 +1,18 @@
+------------------------------User Stories ------------------------------
+1)Change the access of the members so that everyone has the correct authorization			
+2)Assign story points to a user story to accurately depict the progress
+3)Create a sprint meeting note to keep accurate documentation of the project		
+------------------------------Class Diagram ------------------------------
+Tier 1: ok
+Tier 2: ok
+Tier 3: ok
+
+------------------------------Sequence diagram------------------------------
+1:  
+2: 
+3: 
+------------------------------ER diagram ------------------------------
+1:
+2:
+3:
+								

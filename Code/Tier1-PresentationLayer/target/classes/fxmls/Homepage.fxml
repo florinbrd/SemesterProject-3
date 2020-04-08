@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="700.0" prefWidth="1100.0" stylesheets="@../stylesheet/Layout.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.start.HomepageView">
+   <children>
+      <BorderPane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #343743;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <Pane prefHeight="700.0" prefWidth="550.0" style="-fx-background-color: #343743;" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="680.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="550.0">
+                     <fill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop color="#424657" />
+                              <Stop color="#343743" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </fill>
+                  </Rectangle>
+                  <Text fill="WHITE" layoutX="98.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HI ">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="usernameLabelLeft" fill="WHITE" layoutX="144.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USERNAME" wrappingWidth="401.765625">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="98.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We have assembled some links to get you started:">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="logo" fill="WHITE" layoutX="216.0" layoutY="661.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scrum">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="logo1" fill="WHITE" layoutX="290.0" layoutY="661.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="logo2" fill="WHITE" layoutX="306.0" layoutY="661.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Up!">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <HBox alignment="CENTER" layoutY="290.0" prefHeight="100.0" prefWidth="550.0" spacing="50.0">
+                     <children>
+                        <Pane fx:id="groupPane" maxHeight="80.0" maxWidth="80.0" prefHeight="100.0" prefWidth="100.0" styleClass="frame">
+                           <children>
+                              <ImageView fx:id="groupIcon" fitHeight="50.0" fitWidth="40.0" layoutX="20.0" layoutY="20.0" onMouseClicked="#onGroupManagementClicked" pickOnBounds="true" preserveRatio="true" styleClass="iconIncrease">
+                                 <image>
+                                    <Image url="@../pictures/group.png" />
+                                 </image>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="sprintPane" maxHeight="80.0" maxWidth="80.0" prefHeight="100.0" prefWidth="100.0" styleClass="frame">
+                           <children>
+                              <ImageView fx:id="sprintIcon" fitHeight="40.0" fitWidth="40.0" layoutX="20.0" layoutY="20.0" onMouseClicked="#onSprintManagementClicked" pickOnBounds="true" preserveRatio="true" styleClass="iconIncrease">
+                                 <image>
+                                    <Image url="@../pictures/sprint.png" />
+                                 </image>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                        <Pane fx:id="productBacklogPane" maxHeight="80.0" maxWidth="80.0" prefHeight="100.0" prefWidth="100.0" styleClass="frame">
+                           <children>
+                              <ImageView fx:id="productBacklogIcon" fitHeight="40.0" fitWidth="40.0" layoutX="20.0" layoutY="20.0" onMouseClicked="#onProductBacklogClicked" pickOnBounds="true" preserveRatio="true" styleClass="iconIncrease">
+                                 <image>
+                                    <Image url="@../pictures/PB.png" />
+                                 </image>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <Text fx:id="groupManagementLabel" fill="WHITE" layoutX="81.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group Management" visible="false">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="sprintManagementLabel" fill="WHITE" layoutX="208.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sprint Management" visible="false">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="productBacklogLabel" fill="WHITE" layoutX="352.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product Backlog" visible="false">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="createGroupButton" layoutX="202.0" layoutY="453.0" mnemonicParsing="false" onAction="#onCreateGroupClicked" prefHeight="56.0" prefWidth="147.0" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5px;" text="CREATE GROUP" textFill="WHITE">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow height="2.97" radius="24.705" width="97.85" />
+                     </effect>
+                  </Button>
+                  <Text fx:id="createGroupLabel" fill="WHITE" layoutX="135.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="It seems you don't have any group yet. Do you wish to create one?" textAlignment="CENTER" wrappingWidth="280.921875">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </left>
+         <center>
+            <Pane prefHeight="700.0" prefWidth="550.0" style="-fx-background-color: #414450; -fx-background-radius: 1em 1em 0em 0em;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="close" fitHeight="14.0" fitWidth="14.0" layoutX="502.0" layoutY="14.0" onMouseClicked="#onCloseClicked" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/close.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fx:id="minimize" fitHeight="16.0" fitWidth="16.0" layoutX="466.0" layoutY="14.0" onMouseClicked="#onMinimizeClicked" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../pictures/minus-symbol.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children></Pane>
+         </center>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </BorderPane>
+   </children>
+</AnchorPane>

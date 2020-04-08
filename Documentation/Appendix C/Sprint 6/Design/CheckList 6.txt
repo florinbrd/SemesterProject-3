@@ -1,0 +1,22 @@
+------------------------------User Stories ------------------------------
+1)View Product Backlog so I can be up-to-date and aware of current issues		
+2)View Sprint Backlog so I can be up-to-date and aware of current issues
+3)View group information so I can be up to date and aware of current issues
+------------------------------Class Diagram ------------------------------
+Tier 1: OK
+Tier 2: OK
+Tier 3: OK
+
+------------------------------Sequence diagram------------------------------
+1:  
+2: 
+3: 
+------------------------------ER diagram ------------------------------
+1:
+2:
+3:
+
+
+
+in sprint 6 we noticed that its a good idea to load a Session when we login to make  loading methods posible and simple.
+								

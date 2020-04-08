@@ -1,0 +1,18 @@
+------------------------------User Stories ------------------------------
+1)Add user stories to a sprint to keep the accounts accurate			
+2)Remove user stories from a sprint to keep the accounts accurate	
+3)Add tasks to user stories to break down tasks and make them more approachable				
+------------------------------Class Diagram ------------------------------
+Tier 1: OK
+Tier 2: OK
+Tier 3: OK
+
+------------------------------Sequence diagram------------------------------
+1:  
+2: 
+3: 
+------------------------------ER diagram ------------------------------
+1:
+2:
+3:
+								

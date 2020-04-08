@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="database [2]">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.16">
+    <root id="1">
+      <ServerVersion>3.25.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="Group"/>
+    <table id="7" parent="2" name="ProductBacklog"/>
+    <table id="8" parent="2" name="Sprint"/>
+    <table id="9" parent="2" name="SprintList"/>
+    <table id="10" parent="2" name="Task"/>
+    <table id="11" parent="2" name="User"/>
+    <table id="12" parent="2" name="UserStory"/>
+    <table id="13" parent="2" name="UserStory_dg_tmp"/>
+    <table id="14" parent="2" name="__EFMigrationsHistory"/>
+    <table id="15" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="16" parent="2" name="sqlite_sequence">
+      <System>1</System>
+    </table>
+    <column id="17" parent="6" name="GroupId">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <key id="18" parent="6" name="PK_Group">
+      <ColNames>GroupId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="19" parent="7" name="GroupId">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="20" parent="7" name="PK_ProductBacklog">
+      <ColNames>GroupId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="21" parent="7" name="FK_ProductBacklog_Group_GroupId">
+      <ColNames>GroupId</ColNames>
+      <RefTableName>Group</RefTableName>
+      <RefKeyName>PK_Group</RefKeyName>
+      <RefColNames>GroupId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="22" parent="8" name="SprintId">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="23" parent="8" name="SprintNumber">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="8" name="GroupId">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="8" name="SprintListGroupId">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="26" parent="8" name="IX_Sprint_SprintListGroupId">
+      <ColNames>SprintListGroupId</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="27" parent="8" name="PK_Sprint">
+      <ColNames>SprintId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="28" parent="8" name="FK_Sprint_SprintList_SprintListGroupId">
+      <ColNames>SprintListGroupId</ColNames>
+      <RefTableName>SprintList</RefTableName>
+      <RefKeyName>PK_SprintList</RefKeyName>
+      <RefColNames>GroupId</RefColNames>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="29" parent="9" name="GroupId">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="9" name="Duration">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="9" name="NumberOfSprints">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <key id="32" parent="9" name="PK_SprintList">
+      <ColNames>GroupId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="33" parent="9" name="FK_SprintList_Group_GroupId">
+      <ColNames>GroupId</ColNames>
+      <RefTableName>Group</RefTableName>
+      <RefKeyName>PK_Group</RefKeyName>
+      <RefColNames>GroupId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="34" parent="10" name="TaskId">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="35" parent="10" name="TaskMessage">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="10" name="Completed">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="10" name="StoryPoint">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="10" name="StoryId">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="39" parent="10" name="IX_Task_UserStoryStoryId">
+      <ColNames>StoryId</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="40" parent="10" name="PK_Task">
+      <ColNames>TaskId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="41" parent="10">
+      <ColNames>StoryId</ColNames>
+      <RefTableName>UserStory</RefTableName>
+      <RefKeyName>PK_UserStory</RefKeyName>
+      <RefColNames>StoryId</RefColNames>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="42" parent="11" name="Username">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="11" name="Password">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="11" name="GroupRole">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="45" parent="11" name="GroupId">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="46" parent="11" name="sqlite_autoindex_User_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Username</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="47" parent="11" name="IX_User_GroupId">
+      <ColNames>GroupId</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="48" parent="11" name="PK_User">
+      <ColNames>Username</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_User_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="49" parent="11" name="FK_User_Group_GroupId">
+      <ColNames>GroupId</ColNames>
+      <RefTableName>Group</RefTableName>
+      <RefKeyName>PK_Group</RefKeyName>
+      <RefColNames>GroupId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="50" parent="12" name="StoryId">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="51" parent="12" name="Story">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="12" name="StoryPoint">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="12" name="CurrentlyActive">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="12" name="Completed">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="12" name="SprintId">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="12" name="GroupId">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="57" parent="12" name="IX_UserStory_SprintId">
+      <ColNames>SprintId</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="58" parent="12" name="IX_UserStory_ProductBacklogGroupId">
+      <ColNames>GroupId</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="59" parent="12" name="PK_UserStory">
+      <ColNames>StoryId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="60" parent="12">
+      <ColNames>SprintId</ColNames>
+      <RefTableName>Sprint</RefTableName>
+      <RefKeyName>PK_Sprint</RefKeyName>
+      <RefColNames>SprintId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="61" parent="12">
+      <ColNames>GroupId</ColNames>
+      <RefTableName>ProductBacklog</RefTableName>
+      <RefKeyName>PK_ProductBacklog</RefKeyName>
+      <RefColNames>GroupId</RefColNames>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="62" parent="13" name="StoryId">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="63" parent="13" name="Story">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="13" name="StoryPoint">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="13" name="CurrentlyActive">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="13" name="Completed">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="13" name="SprintId">
+      <Position>6</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="13" name="GroupId">
+      <Position>7</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="69" parent="13" name="PK_UserStory">
+      <ColNames>StoryId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="70" parent="13">
+      <ColNames>SprintId</ColNames>
+      <RefTableName>Sprint</RefTableName>
+      <RefKeyName>PK_Sprint</RefKeyName>
+      <RefColNames>SprintId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="71" parent="13">
+      <ColNames>GroupId</ColNames>
+      <RefTableName>ProductBacklog</RefTableName>
+      <RefKeyName>PK_ProductBacklog</RefKeyName>
+      <RefColNames>GroupId</RefColNames>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="72" parent="14" name="MigrationId">
+      <Position>1</Position>
+      <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="14" name="ProductVersion">
+      <Position>2</Position>
+      <DataType>TEXT|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="74" parent="14" name="sqlite_autoindex___EFMigrationsHistory_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MigrationId</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="75" parent="14" name="PK___EFMigrationsHistory">
+      <ColNames>MigrationId</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex___EFMigrationsHistory_1</UnderlyingIndexName>
+    </key>
+    <column id="76" parent="15" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="77" parent="15" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="78" parent="15" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="79" parent="15" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="80" parent="15" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="81" parent="16" name="name">
+      <Position>1</Position>
+    </column>
+    <column id="82" parent="16" name="seq">
+      <Position>2</Position>
+    </column>
+  </database-model>
+</dataSource>

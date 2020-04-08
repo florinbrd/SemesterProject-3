@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ledao\.nuget\packages\microsoft.net.test.sdk\16.2.0\build\netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="C:\Users\ledao\.nuget\packages\nunit3testadapter\3.13.0\build\netcoreapp1.0\nunit.engine.netstandard.dll" t="Include" />
+    <e p="C:\Users\ledao\.nuget\packages\nunit3testadapter\3.13.0\build\netcoreapp1.0\NUnit3.TestAdapter.dll" t="Include" />
+    <e p="C:\Users\ledao\.nuget\packages\nunit3testadapter\3.13.0\build\netcoreapp1.0\NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="C:\Users\ledao\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\ledao\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\ledao\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ledao\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Tier3Load.2105241728.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ledao\OneDrive - ViaUC\Skrivebord\Semester project - Group 3\Code\Tier3-DatabaseLayer" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RestServer" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common" t="Include">
+          <e p="DatabaseIMPL.cs" t="Include" />
+          <e p="Group.cs" t="Include" />
+          <e p="GroupMember.cs" t="Include" />
+          <e p="HttpResponse.cs" t="Include" />
+          <e p="IDatabaseServer.cs" t="Include" />
+          <e p="IDataModel.cs" t="Include" />
+          <e p="Login.cs" t="Include" />
+          <e p="MeetingNotes.cs" t="Include" />
+          <e p="ProductBacklog.cs" t="Include" />
+          <e p="RequestWrapper.cs" t="Include" />
+          <e p="Session.cs" t="Include" />
+          <e p="Sprint.cs" t="Include" />
+          <e p="SprintList.cs" t="Include" />
+          <e p="Task.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserStory.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="BacklogController.cs" t="Include" />
+          <e p="GroupController.cs" t="Include" />
+          <e p="LoginController.cs" t="Include" />
+          <e p="NotesController.cs" t="Include" />
+          <e p="SprintBacklogController.cs" t="Include" />
+          <e p="SprintController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+          <e p="UserStoryController.cs" t="Include" />
+        </e>
+        <e p="DataBase" t="Include">
+          <e p="Data" t="Include">
+            <e p="ScrumContext.cs" t="Include" />
+          </e>
+          <e p="Models" t="Include">
+            <e p="Group.cs" t="Include" />
+            <e p="GroupMember.cs" t="Include" />
+            <e p="MeetingNotes.cs" t="Include" />
+            <e p="ProductBacklog.cs" t="Include" />
+            <e p="Sprint.cs" t="Include" />
+            <e p="SprintList.cs" t="Include" />
+            <e p="Task.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+            <e p="UserStory.cs" t="Include" />
+          </e>
+          <e p="Repository" t="Include">
+            <e p="GroupRepository.cs" t="Include" />
+            <e p="IGroupRepository.cs" t="Include" />
+            <e p="ITeacherRepository.cs" t="Include" />
+            <e p="TeacherRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="database.db" t="Include" />
+        <e p="database.db-shm" t="Include" />
+        <e p="database.db-wal" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20191209234025_FirstInitial.cs" t="Include" />
+          <e p="20191209234025_FirstInitial.Designer.cs" t="Include" />
+          <e p="20191210013705_FixUserGroupMember.cs" t="Include" />
+          <e p="20191210013705_FixUserGroupMember.Designer.cs" t="Include" />
+          <e p="ScrumContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Tier3.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Tier3.csproj" t="IncludeRecursive" />
+        <e p="validation" t="Include">
+          <e p="Validator.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Test.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Test.csproj" t="IncludeRecursive" />
+        <e p="UnitTest.cs" t="Include" />
+      </e>
+      <e p="Tier3Load.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

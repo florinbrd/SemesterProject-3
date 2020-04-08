@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-radius: 20px; -fx-border-radius: 20px; -fx-background-color: transparent;" stylesheets="@../stylesheet/Layout.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.start.RegisterView">
+   <children>
+      <Pane layoutX="436.0" layoutY="25.0" prefHeight="650.0" prefWidth="650.0" style="-fx-background-color: white;">
+         <children>
+            <Text fill="#0fe0c4" layoutX="102.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Account">
+               <font>
+                  <Font size="66.0" />
+               </font>
+            </Text>
+            <TextField fx:id="userNameCreateAccount" layoutX="168.0" layoutY="223.0" prefHeight="44.0" prefWidth="300.0" promptText="Username">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="passwordCreateAccount" layoutX="168.0" layoutY="303.0" prefHeight="44.0" prefWidth="300.0" promptText="Password">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </PasswordField>
+            <PasswordField fx:id="confirmPasswordCreateAccount" layoutX="168.0" layoutY="383.0" prefHeight="44.0" prefWidth="300.0" promptText="Confirm password">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="registerButton" layoutX="204.0" layoutY="485.0" mnemonicParsing="false" onAction="#onRegisterClick" prefHeight="51.0" prefWidth="228.0" style="-fx-background-color: #0ec3a7; -fx-border-radius: 20px; -fx-background-radius: 20px;" text="SIGN UP →" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="25.0" fitWidth="32.0" layoutX="131.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/user.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="32.0" layoutX="131.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/lock.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="32.0" layoutX="131.0" layoutY="393.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/lock.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="close" fitHeight="14.0" fitWidth="14.0" layoutX="622.0" layoutY="14.0" onMouseClicked="#onCloseClicked" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/close.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane prefHeight="700.0" prefWidth="450.0" style="-fx-background-color: #0fe0c4; -fx-background-radius: 20px;">
+         <children>
+            <Rectangle fx:id="greenBackground" arcHeight="5.0" arcWidth="5.0" height="700.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="450.0">
+               <fill>
+                  <RadialGradient centerX="0.5" centerY="0.5238095238095238" radius="0.5">
+                     <stops>
+                        <Stop color="#0fe0c4" />
+                        <Stop color="#1aa490" offset="1.0" />
+                     </stops>
+                  </RadialGradient>
+               </fill>
+            </Rectangle>
+            <Circle fill="#1dab91" layoutX="381.0" layoutY="613.0" radius="37.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#0ec3a7" layoutX="258.0" layoutY="119.0" radius="37.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="5.0" />
+            <Text fill="WHITE" layoutX="74.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welc ">
+               <font>
+                  <Font size="66.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="53.0" fitWidth="77.0" layoutX="232.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../pictures/students-cap.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="295.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="me">
+               <font>
+                  <Font size="66.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="51.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To keep connected with us please login with your personal information" textAlignment="CENTER" wrappingWidth="367.99755859375">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="144.0" layoutY="657.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scrum-Up!">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="78.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already have an account?" textAlignment="CENTER" wrappingWidth="286.3593755364418">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Circle fill="#15a18a" layoutX="14.0" layoutY="396.0" radius="46.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#138671" layoutX="381.0" layoutY="36.0" radius="46.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#21bca0" layoutX="386.0" layoutY="228.0" radius="19.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#11b294" layoutX="334.0" layoutY="235.0" radius="7.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#1dab91" layoutX="340.0" layoutY="194.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle fill="#1dab91" layoutX="340.0" layoutY="522.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Button fx:id="loginButton" layoutX="107.0" layoutY="475.0" mnemonicParsing="false" onAction="#onLoginClick" prefHeight="51.0" prefWidth="228.0" style="-fx-background-color: #0ec3a7; -fx-border-color: white; -fx-border-radius: 20px; -fx-background-radius: 20px;" text="SIGN IN" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Circle fill="#1dab91" layoutX="87.0" layoutY="247.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Text fill="WHITE" layoutX="74.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Back!">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

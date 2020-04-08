@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tier2-ApplicationLayer.iml" filepath="$PROJECT_DIR$/Tier2-ApplicationLayer.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/contract-client/contract-client.iml" filepath="$USER_HOME$/Desktop/contract-client/contract-client.iml" />
+    </modules>
+  </component>
+</project>

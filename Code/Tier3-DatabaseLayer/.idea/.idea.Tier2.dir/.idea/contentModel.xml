@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Jamies\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jamies\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Jamies\Documents\GitHub\Sep3Continues\Tier3-DatabaseLayer" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="Tier2.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RestServer" t="Include">
+        <e p="Controllers" t="Include">
+          <e p="BacklogController.cs" t="Include" />
+          <e p="GroupController.cs" t="Include" />
+          <e p="LoginController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+          <e p="ValuesController.cs" t="Include" />
+        </e>
+        <e p="DataDB" t="Include">
+          <e p="Todo.cs" t="Include" />
+          <e p="TodoContext.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="validation" t="Include">
+          <e p="Validator.cs" t="Include" />
+        </e>
+        <e p="Value.cs" t="Include" />
+        <e p="WebApplication.csproj" t="Include" />
+      </e>
+      <e p="ScrumTool" t="Include">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="appsettings.Development.json" t="Include" />
+              <e p="appsettings.json" t="Include" />
+              <e p="Microsoft.Bcl.AsyncInterfaces.dll" t="Include" />
+              <e p="Microsoft.Bcl.HashCode.dll" t="Include" />
+              <e p="Microsoft.Data.Sqlite.dll" t="Include" />
+              <e p="Microsoft.DotNet.PlatformAbstractions.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.Abstractions.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.Design.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.Relational.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.Sqlite.dll" t="Include" />
+              <e p="Microsoft.Extensions.Caching.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Caching.Memory.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.Binder.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.dll" t="Include" />
+              <e p="Microsoft.Extensions.DependencyInjection.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.DependencyInjection.dll" t="Include" />
+              <e p="Microsoft.Extensions.DependencyModel.dll" t="Include" />
+              <e p="Microsoft.Extensions.Logging.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Logging.dll" t="Include" />
+              <e p="Microsoft.Extensions.Options.dll" t="Include" />
+              <e p="Microsoft.Extensions.Primitives.dll" t="Include" />
+              <e p="Properties" t="Include">
+                <e p="launchSettings.json" t="Include" />
+              </e>
+              <e p="runtimes" t="Include">
+                <e p="alpine-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-arm" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-arm64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-armel" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-musl-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-x86" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="osx-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.dylib" t="Include" />
+                  </e>
+                </e>
+                <e p="win-arm" t="Include">
+                  <e p="native" t="Include">
+                    <e p="e_sqlite3.dll" t="Include" />
+                  </e>
+                </e>
+                <e p="win-arm64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="e_sqlite3.dll" t="Include" />
+                  </e>
+                </e>
+                <e p="win-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="e_sqlite3.dll" t="Include" />
+                  </e>
+                </e>
+                <e p="win-x86" t="Include">
+                  <e p="native" t="Include">
+                    <e p="e_sqlite3.dll" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="ScrumTool.deps.json" t="Include" />
+              <e p="ScrumTool.dll" t="Include" />
+              <e p="ScrumTool.exe" t="Include" />
+              <e p="ScrumTool.pdb" t="Include" />
+              <e p="ScrumTool.runtimeconfig.dev.json" t="Include" />
+              <e p="ScrumTool.runtimeconfig.json" t="Include" />
+              <e p="SQLitePCLRaw.batteries_v2.dll" t="Include" />
+              <e p="SQLitePCLRaw.core.dll" t="Include" />
+              <e p="SQLitePCLRaw.nativelibrary.dll" t="Include" />
+              <e p="SQLitePCLRaw.provider.dynamic_cdecl.dll" t="Include" />
+              <e p="System.Collections.Immutable.dll" t="Include" />
+              <e p="System.ComponentModel.Annotations.dll" t="Include" />
+              <e p="System.Diagnostics.DiagnosticSource.dll" t="Include" />
+              <e p="System.Runtime.CompilerServices.Unsafe.dll" t="Include" />
+              <e p="System.Text.Encodings.Web.dll" t="Include" />
+              <e p="System.Text.Json.dll" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Common" t="Include">
+          <e p="DataModel.cs" t="Include" />
+          <e p="Group.cs" t="Include" />
+          <e p="GroupMember.cs" t="Include" />
+          <e p="IDatabaseServer.cs" t="Include" />
+          <e p="IDataModel.cs" t="Include" />
+          <e p="Login.cs" t="Include" />
+          <e p="ProductBacklog.cs" t="Include" />
+          <e p="Sprint.cs" t="Include" />
+          <e p="SprintList.cs" t="Include" />
+          <e p="Tasks.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserStory.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="ScrumContext.cs" t="Include" />
+        </e>
+        <e p="database.db" t="Include" />
+        <e p="Migrations" t="Include">
+          <e p="20191118102701_Initial.cs" t="Include" />
+          <e p="20191118102701_Initial.Designer.cs" t="Include" />
+          <e p="20191128120414_Start.cs" t="Include" />
+          <e p="20191128120414_Start.Designer.cs" t="Include" />
+          <e p="ScrumContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Group.cs" t="Include" />
+          <e p="ProductBacklog.cs" t="Include" />
+          <e p="Sprint.cs" t="Include" />
+          <e p="SprintList.cs" t="Include" />
+          <e p="Task.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserStory.cs" t="Include" />
+        </e>
+        <e p="obj" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="ScrumTool.AssemblyInfo.cs" t="Include" />
+              <e p="ScrumTool.AssemblyInfoInputs.cache" t="Include" />
+              <e p="ScrumTool.assets.cache" t="Include" />
+              <e p="ScrumTool.csproj.CopyComplete" t="Include" />
+              <e p="ScrumTool.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="ScrumTool.csprojAssemblyReference.cache" t="Include" />
+              <e p="ScrumTool.dll" t="Include" />
+              <e p="ScrumTool.exe" t="Include" />
+              <e p="ScrumTool.MvcApplicationPartsAssemblyInfo.cache" t="Include" />
+              <e p="ScrumTool.pdb" t="Include" />
+              <e p="ScrumTool.RazorTargetAssemblyInfo.cache" t="Include" />
+              <e p="staticwebassets" t="Include">
+                <e p="ScrumTool.StaticWebAssets.Manifest.cache" t="Include" />
+                <e p="ScrumTool.StaticWebAssets.xml" t="Include" />
+              </e>
+            </e>
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ScrumTool.AssemblyInfo.cs" t="Include" />
+              <e p="ScrumTool.AssemblyInfoInputs.cache" t="Include" />
+              <e p="ScrumTool.assets.cache" t="Include" />
+              <e p="ScrumTool.csprojAssemblyReference.cache" t="Include" />
+            </e>
+          </e>
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+          <e p="ScrumTool.csproj.EntityFrameworkCore.targets" t="Include" />
+          <e p="ScrumTool.csproj.nuget.cache" t="Include" />
+          <e p="ScrumTool.csproj.nuget.dgspec.json" t="Include" />
+          <e p="ScrumTool.csproj.nuget.g.props" t="Include" />
+          <e p="ScrumTool.csproj.nuget.g.targets" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repository" t="Include">
+          <e p="GroupRepository.cs" t="Include" />
+          <e p="IGroupRepository.cs" t="Include" />
+          <e p="ITeacherRepository.cs" t="Include" />
+          <e p="TeacherRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="TestProject1" t="Include">
+        <e p="bin" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="appsettings.Development.json" t="Include" />
+              <e p="appsettings.json" t="Include" />
+              <e p="Castle.Core.dll" t="Include" />
+              <e p="cs" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="de" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="es" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="fr" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="it" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="ja" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="ko" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="Microsoft.AspNetCore.Hosting.Abstractions.dll" t="Include" />
+              <e p="Microsoft.AspNetCore.Hosting.dll" t="Include" />
+              <e p="Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" t="Include" />
+              <e p="Microsoft.AspNetCore.Http.Abstractions.dll" t="Include" />
+              <e p="Microsoft.AspNetCore.Http.dll" t="Include" />
+              <e p="Microsoft.AspNetCore.Http.Extensions.dll" t="Include" />
+              <e p="Microsoft.AspNetCore.Http.Features.dll" t="Include" />
+              <e p="Microsoft.AspNetCore.WebUtilities.dll" t="Include" />
+              <e p="Microsoft.Bcl.AsyncInterfaces.dll" t="Include" />
+              <e p="Microsoft.Bcl.HashCode.dll" t="Include" />
+              <e p="Microsoft.Data.Sqlite.dll" t="Include" />
+              <e p="Microsoft.DotNet.InternalAbstractions.dll" t="Include" />
+              <e p="Microsoft.DotNet.PlatformAbstractions.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.Abstractions.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.Design.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.Relational.dll" t="Include" />
+              <e p="Microsoft.EntityFrameworkCore.Sqlite.dll" t="Include" />
+              <e p="Microsoft.Extensions.Caching.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Caching.Memory.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.Binder.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.EnvironmentVariables.dll" t="Include" />
+              <e p="Microsoft.Extensions.Configuration.FileExtensions.dll" t="Include" />
+              <e p="Microsoft.Extensions.DependencyInjection.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.DependencyInjection.dll" t="Include" />
+              <e p="Microsoft.Extensions.DependencyModel.dll" t="Include" />
+              <e p="Microsoft.Extensions.FileProviders.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.FileProviders.Physical.dll" t="Include" />
+              <e p="Microsoft.Extensions.FileSystemGlobbing.dll" t="Include" />
+              <e p="Microsoft.Extensions.Hosting.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Logging.Abstractions.dll" t="Include" />
+              <e p="Microsoft.Extensions.Logging.dll" t="Include" />
+              <e p="Microsoft.Extensions.ObjectPool.dll" t="Include" />
+              <e p="Microsoft.Extensions.Options.dll" t="Include" />
+              <e p="Microsoft.Extensions.Primitives.dll" t="Include" />
+              <e p="Microsoft.Net.Http.Headers.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.CommunicationUtilities.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.CoreUtilities.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.CrossPlatEngine.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.PlatformAbstractions.dll" t="Include" />
+              <e p="Microsoft.TestPlatform.Utilities.dll" t="Include" />
+              <e p="Microsoft.VisualStudio.CodeCoverage.Shim.dll" t="Include" />
+              <e p="Microsoft.VisualStudio.TestPlatform.Common.dll" t="Include" />
+              <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.dll" t="Include" />
+              <e p="Moq.dll" t="Include" />
+              <e p="Newtonsoft.Json.dll" t="Include" />
+              <e p="nunit.engine.netstandard.dll" t="Include" />
+              <e p="nunit.framework.dll" t="Include" />
+              <e p="NUnit3.TestAdapter.dll" t="Include" />
+              <e p="NUnit3.TestAdapter.pdb" t="Include" />
+              <e p="nunit_random_seed.tmp" t="Include" />
+              <e p="pl" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="Properties" t="Include">
+                <e p="launchSettings.json" t="Include" />
+              </e>
+              <e p="pt-BR" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="ru" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="runtimes" t="Include">
+                <e p="alpine-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-arm" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-arm64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-armel" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-musl-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="linux-x86" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.so" t="Include" />
+                  </e>
+                </e>
+                <e p="osx-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="libe_sqlite3.dylib" t="Include" />
+                  </e>
+                </e>
+                <e p="win-arm" t="Include">
+                  <e p="native" t="Include">
+                    <e p="e_sqlite3.dll" t="Include" />
+                  </e>
+                </e>
+                <e p="win-arm64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="e_sqlite3.dll" t="Include" />
+                  </e>
+                </e>
+                <e p="win-x64" t="Include">
+                  <e p="native" t="Include">
+                    <e p="e_sqlite3.dll" t="Include" />
+                  </e>
+                </e>
+                <e p="win-x86" t="Include">
+                  <e p="native" t="Include">
+                    <e p="e_sqlite3.dll" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="ScrumTool.dll" t="Include" />
+              <e p="ScrumTool.exe" t="Include" />
+              <e p="ScrumTool.pdb" t="Include" />
+              <e p="SQLitePCLRaw.batteries_v2.dll" t="Include" />
+              <e p="SQLitePCLRaw.core.dll" t="Include" />
+              <e p="SQLitePCLRaw.nativelibrary.dll" t="Include" />
+              <e p="SQLitePCLRaw.provider.dynamic_cdecl.dll" t="Include" />
+              <e p="System.Collections.Immutable.dll" t="Include" />
+              <e p="System.ComponentModel.Annotations.dll" t="Include" />
+              <e p="System.Diagnostics.DiagnosticSource.dll" t="Include" />
+              <e p="System.Runtime.CompilerServices.Unsafe.dll" t="Include" />
+              <e p="System.Text.Encodings.Web.dll" t="Include" />
+              <e p="System.Text.Json.dll" t="Include" />
+              <e p="System.Xml.XPath.XmlDocument.dll" t="Include" />
+              <e p="testhost.dll" t="Include" />
+              <e p="TestProject1.deps.json" t="Include" />
+              <e p="TestProject1.dll" t="Include" />
+              <e p="TestProject1.pdb" t="Include" />
+              <e p="TestProject1.runtimeconfig.dev.json" t="Include" />
+              <e p="TestProject1.runtimeconfig.json" t="Include" />
+              <e p="tr" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="zh-Hans" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+              <e p="zh-Hant" t="Include">
+                <e p="Microsoft.TestPlatform.CommunicationUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CoreUtilities.resources.dll" t="Include" />
+                <e p="Microsoft.TestPlatform.CrossPlatEngine.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.Common.resources.dll" t="Include" />
+                <e p="Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="obj" t="Include">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="TestProject1.AssemblyInfo.cs" t="Include" />
+              <e p="TestProject1.AssemblyInfoInputs.cache" t="Include" />
+              <e p="TestProject1.assets.cache" t="Include" />
+              <e p="TestProject1.csproj.CopyComplete" t="Include" />
+              <e p="TestProject1.csproj.FileListAbsolute.txt" t="Include" />
+              <e p="TestProject1.csprojAssemblyReference.cache" t="Include" />
+              <e p="TestProject1.dll" t="Include" />
+              <e p="TestProject1.pdb" t="Include" />
+            </e>
+            <e p="netcoreapp3.1" t="Include">
+              <e p="TestProject1.AssemblyInfo.cs" t="Include" />
+              <e p="TestProject1.AssemblyInfoInputs.cache" t="Include" />
+              <e p="TestProject1.assets.cache" t="Include" />
+              <e p="TestProject1.csprojAssemblyReference.cache" t="Include" />
+            </e>
+          </e>
+          <e p="project.assets.json" t="Include" />
+          <e p="project.packagespec.json" t="Include" />
+          <e p="TestProject1.csproj.nuget.cache" t="Include" />
+          <e p="TestProject1.csproj.nuget.dgspec.json" t="Include" />
+          <e p="TestProject1.csproj.nuget.g.props" t="Include" />
+          <e p="TestProject1.csproj.nuget.g.targets" t="Include" />
+        </e>
+        <e p="UnitTest1.cs" t="Include" />
+      </e>
+      <e p="Tier2.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

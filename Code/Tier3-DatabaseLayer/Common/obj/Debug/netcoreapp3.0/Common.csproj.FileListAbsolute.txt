@@ -1,0 +1,16 @@
+C:\Users\Jaime\Documents\GitHub\Sep3Continues\Tier3-DatabaseLayer\Common\bin\Debug\netcoreapp3.0\Common.deps.json
+C:\Users\Jaime\Documents\GitHub\Sep3Continues\Tier3-DatabaseLayer\Common\bin\Debug\netcoreapp3.0\Common.dll
+C:\Users\Jaime\Documents\GitHub\Sep3Continues\Tier3-DatabaseLayer\Common\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Users\Jaime\Documents\GitHub\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.csprojAssemblyReference.cache
+C:\Users\Jaime\Documents\GitHub\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfoInputs.cache
+C:\Users\Jaime\Documents\GitHub\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfo.cs
+C:\Users\Jaime\Documents\GitHub\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.dll
+C:\Users\Jaime\Documents\GitHub\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.pdb
+C:\Users\ledao\Project\Sep3Continues\Tier3-DatabaseLayer\Common\bin\Debug\netcoreapp3.0\Common.deps.json
+C:\Users\ledao\Project\Sep3Continues\Tier3-DatabaseLayer\Common\bin\Debug\netcoreapp3.0\Common.dll
+C:\Users\ledao\Project\Sep3Continues\Tier3-DatabaseLayer\Common\bin\Debug\netcoreapp3.0\Common.pdb
+C:\Users\ledao\Project\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.csprojAssemblyReference.cache
+C:\Users\ledao\Project\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfoInputs.cache
+C:\Users\ledao\Project\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.AssemblyInfo.cs
+C:\Users\ledao\Project\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.dll
+C:\Users\ledao\Project\Sep3Continues\Tier3-DatabaseLayer\Common\obj\Debug\netcoreapp3.0\Common.pdb

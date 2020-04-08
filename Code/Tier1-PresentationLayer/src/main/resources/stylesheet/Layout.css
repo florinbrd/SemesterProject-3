@@ -1,0 +1,49 @@
+#greenBackground{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#registerButton:hover, #loginButton:hover{
+    -fx-background-color: #149682 !important;
+}
+
+#minimize:hover, #close:hover {
+    -fx-scale-x: 1.15;
+    -fx-scale-y: 1.15;
+}
+
+#userNameCreateAccount, #passwordCreateAccount, #confirmPasswordCreateAccount, #usernameTxtField, #passwordTxtField {
+    -fx-background-color: transparent;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: black;
+}
+ .frame {
+    -fx-border-color: white;
+    -fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-border-radius: 1em;
+}
+
+.iconIncrease:hover {
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+
+#logo {
+    -fx-fill: linear-gradient(from 0% 0% to 130% 200%, repeat, aqua 10%, #A5157C 40%);
+}
+
+#logo2{
+    -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, #A5157C 20%, #F88740 50%);
+}
+
+.hoverButton:hover {
+    -fx-background-color: #414450 !important;
+}
+
+#activeButton {
+    -fx-background-color: #149682 !important;
+}
+
+#usernameLabel, #groupRoleLabel {
+    -fx-text-alignment: center;
+}

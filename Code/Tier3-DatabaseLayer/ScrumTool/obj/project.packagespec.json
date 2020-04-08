@@ -1,0 +1,62 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Jaime\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\ScrumTool\\ScrumTool.csproj",
+    "projectName": "ScrumTool",
+    "projectPath": "C:\\Users\\Jaime\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\ScrumTool\\ScrumTool.csproj",
+    "outputPath": "C:\\Users\\Jaime\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\ScrumTool\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {
+          "C:\\Users\\Jaime\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\Common\\Common.csproj": {
+            "projectPath": "C:\\Users\\Jaime\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\Common\\Common.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Hosting": {
+          "target": "Package",
+          "version": "[2.2.7, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[3.1.0-preview3.19554.8, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[3.1.0-preview3.19554.8, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "target": "Package",
+          "version": "[3.1.0-preview3.19554.8, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

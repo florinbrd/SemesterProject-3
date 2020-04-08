@@ -1,0 +1,19 @@
+------------------------------User Stories ------------------------------
+1) Set the number of sprints so that we can have an overview of the total number of sprints				
+2) Set the duration of each sprint so that they accurately depict the time spent
+3) Edit the number of Sprints in case the initial number was a mistake
+
+------------------------------Class Diagram ------------------------------
+Tier 1: Ok
+Tier 2: Ok
+Tier 3: Ok
+
+------------------------------Sequence diagram------------------------------
+1: 1 For all 
+2: 1 For all 
+3: 1 For all 
+------------------------------ER diagram ------------------------------
+1:
+2:
+3:
+								

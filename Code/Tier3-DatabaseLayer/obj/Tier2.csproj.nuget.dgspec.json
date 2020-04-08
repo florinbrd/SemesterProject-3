@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jamies\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\Tier2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jamies\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\Tier2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jamies\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\Tier2.csproj",
+        "projectName": "Tier2",
+        "projectPath": "C:\\Users\\Jamies\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\Tier2.csproj",
+        "packagesPath": "C:\\Users\\Jamies\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jamies\\Documents\\GitHub\\Sep3Continues\\Tier3-DatabaseLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jamies\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Jamies\\Documents\\GitHub\\Sep3Continues\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Jamies\\Documents\\GitHub\\Sep3Continues\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
